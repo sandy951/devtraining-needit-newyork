@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Occasions" max_length="40" name="x_58872_needit_occasions" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Employee" max_length="80" name="u_employee" type="field_name"/>
+        <element label="Employee" max_length="80" name="u_field_employee" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Occasion date" mandatory="true" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Special occasion" max_length="40" name="u_special_occasion" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
